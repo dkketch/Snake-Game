@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+html {
+    background-color: #222;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+button {
+    padding: 5px;
+}
+
+select {
+    padding: 5px;
+}
+
+option {
+    padding: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    background-color: lightgrey;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+
+/* .apple::before {
+    content: "";
+    background: transparent;
+    display: inline-block;
+    background-color: lightgrey;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border: 3px solid #8a2be2;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+} */
+
+.apple {
+    background-color: red;
+}
